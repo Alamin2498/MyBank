@@ -2,36 +2,34 @@ body{
     padding: 100px;
 
 }
-.bank{
+.bank-title{
     text-align: center;
 }
-.submit{
-    margin-top: 70px;
-    padding: 40px;
-    border-radius: 10px ;
-    box-shadow: 5px 5px 10px gray;
-    
+.submit-area{
+    margin-top: 50px;
+    padding: 50px;
+    box-shadow: 10px 10px 30px palevioletred;
+  border-radius: 50px;
 }
-#transaction{
+#login{
+    background-color: palevioletred;
+}
+#transaction-area{
     display: none;
 }
 .deposit{
-    background-color: blueviolet;
-    
+    background-color: pink;
 }
 .withdraw{
     background-color: cadetblue;
-    
-
 }
 .balance{
-    background-color:darksalmon;
-    
+    background-color:gray;
 }
 .status{
     margin: 0 20px;
-    color: aliceblue;
-    padding: 20px;
     border-radius: 10px;
-    
+    margin-top: 40px;
+    padding: 20px;
+    color:white;
 }
